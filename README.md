@@ -18,16 +18,6 @@ This is a simple app that allows you to search for a employe and get the results
 
 1. Run `npm run build`
 
-## How to deploy
-
-1. Run `npm run deploy`
-
-## How to run the linter
-
-1. Run `npm run lint`
-
-
-
 ### System Requirements
 
 - Node.js 10.16.0 or later
