@@ -1,0 +1,42 @@
+// Description: Styles for the table item component
+
+.tableItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+    color: rgba(79, 79, 79, 0.973);
+    padding: 10px;
+
+    &-name {
+        text-align: left;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    &-metas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &-meta {
+        flex: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    &-metaIcon {
+        margin-right: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .tableItem {
+        height: 90px;
+        &-metas {
+            flex-direction: column;
+        }
+    }
+}
